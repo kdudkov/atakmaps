@@ -1,0 +1,13 @@
+<MissionPackageManifest version="2">
+	<Configuration>
+		<Parameter name="uid" value="KOTT maps"/>
+		<Parameter name="name" value="Basic map set"/>
+		<Parameter name="onReceiveDelete" value="false"/>
+	</Configuration>
+	<Contents>
+		<Content ignore="false" zipEntry="content/defaults.pref"/>
+		<Content ignore="false" zipEntry="content/google_h.xml"/>
+		<Content ignore="false" zipEntry="content/opentopo.xml"/>
+		<Content ignore="false" zipEntry="content/osm.xml"/>
+	</Contents>
+</MissionPackageManifest>
