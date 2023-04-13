@@ -1,11 +1,13 @@
 <MissionPackageManifest version="2">
 	<Configuration>
-		<Parameter name="uid" value="KOTT maps"/>
-		<Parameter name="name" value="Basic map set"/>
+		<Parameter name="uid" value="kott_maps"/>
+		<Parameter name="name" value="atakmaps.zip"/>
 		<Parameter name="onReceiveDelete" value="false"/>
+		<Parameter name="onReceiveImport" value="true"/>
 	</Configuration>
 	<Contents>
 		<Content ignore="false" zipEntry="content/defaults.pref"/>
+		<Content ignore="false" zipEntry="content/yandex_map.xml"/>
 		<Content ignore="false" zipEntry="content/google_h.xml"/>
 		<Content ignore="false" zipEntry="content/opentopo.xml"/>
 		<Content ignore="false" zipEntry="content/osm.xml"/>
